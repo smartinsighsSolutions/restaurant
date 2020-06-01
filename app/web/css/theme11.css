@@ -1,0 +1,92 @@
+/* ==========================================================================
+	#pjMbHeader
+========================================================================== */
+#pjWrapper .pjMbHeader { background: #f7f7f7; }
+#pjWrapper .pjMbNav > li > a { color: #6a8ab3; }
+
+#pjWrapper .pjMbNav > .active > a,
+#pjWrapper .pjMbNav > .active > a:focus,
+#pjWrapper .pjMbNav > .open > a,
+#pjWrapper .pjMbNav > .open > a:focus,
+#pjWrapper .pjMbNav > li > a:hover { color: #073163; }
+#pjWrapper .pjMbNav > li > a:after { background: #073163; }
+
+#pjWrapper .pjMbNav .dropdown-menu { background: #f7f7f7; }
+#pjWrapper .pjMbNav .dropdown-menu a { color: #6a8ab3; }
+#pjWrapper .pjMbNav .dropdown-menu a:hover { color: #073163; }
+
+#pjWrapper .pjMbHeaderOptions .control-label { color: #6a8ab3; }
+#pjWrapper .pjMbHeaderOptions .form-control { border-color: #bebabb; background: #fff; color: #565a5b; }
+
+/* ==========================================================================
+	#pjMbContent
+========================================================================== */
+#pjWrapper .pjMbContentTitle { color: #6a8ab3; }
+#pjWrapper .pjMbContentTitle:after { background: #073163; }
+#pjWrapper .pjMbContentHead p { color: #595a5c; }
+
+#pjWrapper .pjMbSpecialOfferMeta dd { color: #6a8ab3; }
+#pjWrapper .pjMbSpecialOfferMeta dt { color: #d21e1d; }
+
+/* ==========================================================================
+	#pjMbProductCategory
+========================================================================== */
+#pjWrapper .pjMbCategoryTitle { color: #fff; }
+#pjWrapper .pjMbCategoryTitle:before { background: #073163; }
+
+/* ==========================================================================
+	#pjMbProducts
+========================================================================== */
+#pjWrapper .pjMbProductsTitle { color: #073163; }
+
+#pjWrapper .pjMbProduct .thumbnail { border-color: #6a8ab3; }
+#pjWrapper .pjMbProduct .thumbnail:focus,
+#pjWrapper .pjMbProduct .thumbnail:hover { border-color: #073163; }
+
+#pjWrapper .pjMbProductTitle { color: #6a8ab3; }
+#pjWrapper .thumbnail:hover .pjMbProductTitle { color: #073163; }
+
+#pjWrapper .thumbnail .pjMbProductPrice { color: #d21e1d; }
+
+#pjWrapper .pjMbProductContent p { color: #595a5c; }
+
+#pjWrapper .pjMbProductMeta dt { color: #595a5c; }
+
+/* ==========================================================================
+	#pjMbOffers
+========================================================================== */
+#pjWrapper .pjMbOfferMeta { background: rgba(43, 41, 41, .81); }
+#pjWrapper .pjMbOfferMeta p { color: #fff; }
+#pjWrapper .pjMbOfferMeta .pjMbOfferPrice { color: #d21e1d; }
+
+#pjWrapper .pjMbOfferTitle { color: #fff; }
+#pjWrapper .pjMbOfferTitle:before { background: #073163; }
+
+/* ==========================================================================
+	#pjMbOfferMenu
+========================================================================== */
+#pjWrapper .pjMbOfferMenuTitle { color: #073163; }
+
+#pjWrapper .pjMbOfferMenuItem .thumbnail { border-color: #6a8ab3; }
+#pjWrapper .pjMbOfferMenuItem .thumbnail:hover { border-color: #073163; }
+
+#pjWrapper .pjMbOfferMenuItemTitle { color: #6a8ab3; }
+#pjWrapper .thumbnail:hover .pjMbOfferMenuItemTitle { color: #073163; }
+#pjWrapper .pjMbOfferMenuItemContent p { color: #595a5c; }
+
+/* ==========================================================================
+	#Responsive
+========================================================================== */
+@media only screen and ( max-width: 767px ) {
+	#pjWrapper .pjMbNav .dropdown-menu a:hover { color: #073163; }
+}
+
+@media only screen and ( max-width: 420px ) {
+	#pjWrapper .pjMbNav > li { border-color: #073163; }
+
+	#pjWrapper .pjMbHeaderOptions .btn-default { border-color: #073163; background: #f7f7f7; color: #073163; }
+	#pjWrapper .pjMbHeaderOptions .btn-group.open .btn-default { border-bottom-color: transparent; color: #073163; }
+	#pjWrapper .pjMbHeaderOptions .dropdown-menu { background: #f7f7f7; }
+	#pjWrapper .pjMbHeaderOptions .dropdown-menu a { color: #6a8ab3; }
+	#pjWrapper .pjMbHeaderOptions .dropdown-menu a:hover { color: #073163; }
+}
